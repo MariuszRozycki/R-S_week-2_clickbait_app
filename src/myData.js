@@ -2,8 +2,9 @@ const posts = [
   { id: 1, title: 'Pilne: Co to był za dzień!', intro: 'Tego świat jeszcze nie widział'},
   { id: 2, title: 'Wszyscy zazdroszą Polakom!', intro: 'Takiego clickbajtowego tytułu jeszcze nikt nie wymyślił'},
   { id: 3, title: 'Adam Małysz Zgolił wąs',
-    intro: 'Po przegranym zakładzie z Piotrem Żyłą nasz mistrz olimpijski zgolił wąsy'
-  }
+    intro: 'Po przegranym zakładzie z Piotrem Żyłą nasz mistrz olimpijski zgolił wąsy',
+  },
+  {id: 4, title: 'Mariusz stworzyl tytul', intro: 'Mniej niz 25 znakow'}
 ];
 
 export default posts;
