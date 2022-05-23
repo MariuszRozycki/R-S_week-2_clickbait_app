@@ -1,4 +1,5 @@
 import React from "react";
+import style from "./style";
 import BlogTitle from "./BlogTile";
 
 function Articles({title, intro}) {
@@ -9,7 +10,7 @@ function Articles({title, intro}) {
     return (
       <article>
         <BlogTitle title={title}/>
-        <p>{intro25}</p>
+        <p style={style}>{intro25}</p>
       </article>
     );
   } else

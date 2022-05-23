@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./style";
 
 function BlogTitle({title}) {
   return (
-    <h1>{title}</h1>
+    <h1 style={style.headingStyles}>{title}</h1>
   );
 }
 

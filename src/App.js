@@ -1,4 +1,3 @@
-import './App.css';
 import posts from './myData';
 import Articles from './Articles';
 
